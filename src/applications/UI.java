@@ -72,7 +72,9 @@ public class UI {
 		if(!chessMatch.getCheckMate()) {
 			System.out.println("Waitng player: " + chessMatch.getCurrentPlayer());
 			if (chessMatch.getCheck()) {
+				System.out.println(ANSI_PURPLE);
 				System.out.println("CHECK!");
+				System.out.println(ANSI_RESET);
 			}
 		}
 		else {
